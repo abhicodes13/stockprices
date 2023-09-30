@@ -38,6 +38,8 @@ h2{
 .card button{
     background-color: rgb(60, 202, 13);
     border: none;
+     height: 50px;
+    width:100px;
     border-radius: 2px;
     color: rgb(0, 0, 0);
 }
