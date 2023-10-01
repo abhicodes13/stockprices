@@ -19,27 +19,27 @@ body{
 }
 .card input{
     height: 50px;
-    width:200px;
+    width:150px;
     margin-right: 2px;
 }
 
 h1,h4{
-    font-size: 30px;
-    margin-top: 100px;
+    font-size: 20px;
+    margin-top: 80px;
     margin-bottom: 0;
     color: white;
 }
 h2{
     margin: 0;
     color: rgb(60, 202, 13);
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .card button{
     background-color: rgb(60, 202, 13);
     border: none;
-     height: 50px;
-    width:100px;
+     height: 40px;
+    width:80px;
     border-radius: 2px;
     color: rgb(0, 0, 0);
 }
