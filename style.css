@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 *{
+    margin: 0;
+    padding: 0;
     height: auto;
     width: auto;
     font-family: 'Poppins';
@@ -7,11 +9,12 @@
 body{
     background-color: #161616;
     text-align: center;
+  height: auto;
     
 }
 
 .card{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,15 +27,15 @@ body{
 }
 
 h1,h4{
-    font-size: 30px;
-    margin-top: 100px;
+    font-size: 25px;
+    margin-top: 20px;
     margin-bottom: 0;
     color: white;
 }
 h2{
     margin: 0;
     color: rgb(60, 202, 13);
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .card button{
@@ -42,4 +45,46 @@ h2{
     height: 50px;
     width:100px;
     color: rgb(0, 0, 0);
+}
+.stocks{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.box{
+    font-weight: bolder;
+    color: rgb(60, 202, 13);
+    background-color: rgb(245, 246, 245);
+    margin: 2px;
+    height: 30px;
+    width: 80px;
+    padding: 23px;
+    padding-top: 10px;
+    border: none 2px solid;
+    border-radius: 3px;
+   display: flex; 
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header{
+    height: 20px;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    color:rgb(243, 243, 233);
+    background-color:rgb(15, 15, 15);
 }
