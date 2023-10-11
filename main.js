@@ -5,6 +5,13 @@ const urlEnd = '&format=json&outputsize=30';
 
 
 async function getStocks(name){
+	const options = {
+		method: 'GET',
+		headers: {
+			'X-RapidAPI-Key': 'aaf412f001mshb16825a0d5065e6p181d8ajsn4a009ea4951a',
+			'X-RapidAPI-Host': 'twelve-data1.p.rapidapi.com'
+		}
+	};
 	
 	
 	try {
